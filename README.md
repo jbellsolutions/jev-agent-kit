@@ -4,7 +4,7 @@ This repository is a self-contained handoff for building software with Jev, Type
 
 Give this repository to Codex and say: **Read `AGENTS.md`, then use `docs/EMAIL-APPLICATION-BUILD-BRIEF.md` as the product specification. Read only the TypeSafe references needed for the feature you are implementing.**
 
-For a one-file hosted Super Browser handoff, give the agent [`SUPER-BROWSER-LLM-BOOTSTRAP.txt`](SUPER-BROWSER-LLM-BOOTSTRAP.txt) plus a named Super Browser connection token through its secret manager.
+For a one-file start, give the agent [`LLM-BOOTSTRAP.txt`](LLM-BOOTSTRAP.txt) plus either a TypeSafe API key or a named Super Browser connection token through its secret manager. The separate [`SUPER-BROWSER-LLM-BOOTSTRAP.txt`](SUPER-BROWSER-LLM-BOOTSTRAP.txt) is the connection-only Super Browser packet.
 
 ## What is included
 
@@ -16,11 +16,12 @@ For a one-file hosted Super Browser handoff, give the agent [`SUPER-BROWSER-LLM-
 
 ## Start here
 
-1. Read [`AGENTS.md`](AGENTS.md).
-2. Read [`docs/EMAIL-APPLICATION-BUILD-BRIEF.md`](docs/EMAIL-APPLICATION-BUILD-BRIEF.md).
-3. Read [`skill/typesafe-ai/SKILL.md`](skill/typesafe-ai/SKILL.md).
-4. Use [`skill/typesafe-ai/references/docs/INDEX.md`](skill/typesafe-ai/references/docs/INDEX.md) to open only the API, SDK, primitive, confidence, pattern, or cookbook references relevant to the current implementation task.
-5. Treat live schemas and current service responses as authoritative when they differ from this dated snapshot.
+1. Read [`LLM-BOOTSTRAP.txt`](LLM-BOOTSTRAP.txt).
+2. Read [`AGENTS.md`](AGENTS.md).
+3. Read [`docs/EMAIL-APPLICATION-BUILD-BRIEF.md`](docs/EMAIL-APPLICATION-BUILD-BRIEF.md).
+4. Read [`skill/typesafe-ai/SKILL.md`](skill/typesafe-ai/SKILL.md).
+5. Use [`skill/typesafe-ai/references/docs/INDEX.md`](skill/typesafe-ai/references/docs/INDEX.md) to open only the API, SDK, primitive, confidence, pattern, or cookbook references relevant to the current implementation task.
+6. Treat live schemas and current service responses as authoritative when they differ from this dated snapshot.
 
 ## Important boundary
 
