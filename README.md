@@ -4,6 +4,8 @@ This repository is a self-contained handoff for building software with Jev, Type
 
 Give this repository to Codex and say: **Read `AGENTS.md`, then use `docs/EMAIL-APPLICATION-BUILD-BRIEF.md` as the product specification. Read only the TypeSafe references needed for the feature you are implementing.**
 
+For a one-file hosted Super Browser handoff, give the agent [`SUPER-BROWSER-LLM-BOOTSTRAP.txt`](SUPER-BROWSER-LLM-BOOTSTRAP.txt) plus a named Super Browser connection token through its secret manager.
+
 ## What is included
 
 - The complete maintained `typesafe-ai` Codex skill.
