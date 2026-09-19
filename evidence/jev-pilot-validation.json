@@ -1,0 +1,820 @@
+{
+  "pilot": "browser-intent-v1",
+  "metrics": {
+    "samples": 16,
+    "available": 16,
+    "agreements": 16,
+    "disagreements": 0,
+    "agreement_rate": 1.0,
+    "reviewed_available": 16,
+    "unreviewed_available": 0,
+    "jev_accuracy": 1.0,
+    "baseline_accuracy": 1.0,
+    "latency_p50_ms": 487,
+    "latency_max_ms": 775,
+    "by_baseline": {
+      "planning": 6,
+      "api": 2,
+      "browser": 4,
+      "needs_context": 4
+    },
+    "statuses": {
+      "queued": 0,
+      "running": 0,
+      "complete": 16,
+      "expired": 0
+    }
+  },
+  "spent_and_reserved_usd": 0.000372204,
+  "monthly_budget": {
+    "model": "jev-1.13.0",
+    "configured": true,
+    "month": "2026-09",
+    "timezone": "America/New_York",
+    "limit_usd": 5,
+    "spent_and_reserved_usd": 0.000495852,
+    "remaining_usd": 4.999504148,
+    "advisory": true,
+    "enabled": true
+  },
+  "samples": [
+    {
+      "id": "67d3f17499420ade582d33b1a3708708",
+      "run": null,
+      "cohort": "validation",
+      "created": 1789760841.404099,
+      "state": {
+        "goal": "Draft a plan for researching restaurants. Do not browse or collect live data yet.",
+        "available_apis": [],
+        "browser_selection": "auto",
+        "option_order": "forward"
+      },
+      "baseline": "planning",
+      "route": {},
+      "status": "complete",
+      "result": {
+        "status": "available",
+        "advisory": true,
+        "purpose": "browser-intent-v1",
+        "judgment": {
+          "type": "choice",
+          "choice": "planning",
+          "probabilities": {
+            "planning": 1.0,
+            "api": 0.0,
+            "needs_context": 0.0,
+            "browser": 0.0
+          },
+          "confidence": 1.0
+        },
+        "model": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 548,
+          "output_tokens": 52
+        },
+        "cost_usd": 2.3016e-05,
+        "latency_ms": 691,
+        "attempts": 1
+      },
+      "elapsed_ms": 775,
+      "label": "planning",
+      "label_note": "Frozen synthetic reference: tests/fixtures/jev-pilot.json#plan-research",
+      "labeled_at": 1789760841.4041488,
+      "baseline_source": "fixture_reference",
+      "workflow_status": null,
+      "spent_and_reserved_usd": 2.3016e-05
+    },
+    {
+      "id": "a308c6814cc94cad43d1c3ab7b375a73",
+      "run": null,
+      "cohort": "validation",
+      "created": 1789760841.4126527,
+      "state": {
+        "goal": "Draft a plan for researching restaurants. Do not browse or collect live data yet.",
+        "available_apis": [],
+        "browser_selection": "auto",
+        "option_order": "reverse"
+      },
+      "baseline": "planning",
+      "route": {},
+      "status": "complete",
+      "result": {
+        "status": "available",
+        "advisory": true,
+        "purpose": "browser-intent-v1",
+        "judgment": {
+          "type": "choice",
+          "choice": "planning",
+          "probabilities": {
+            "browser": 0.0,
+            "api": 0.0,
+            "planning": 1.0,
+            "needs_context": 0.0
+          },
+          "confidence": 1.0
+        },
+        "model": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 548,
+          "output_tokens": 52
+        },
+        "cost_usd": 2.3016e-05,
+        "latency_ms": 442,
+        "attempts": 1
+      },
+      "elapsed_ms": 488,
+      "label": "planning",
+      "label_note": "Frozen synthetic reference: tests/fixtures/jev-pilot.json#plan-research",
+      "labeled_at": 1789760841.4127007,
+      "baseline_source": "fixture_reference",
+      "workflow_status": null,
+      "spent_and_reserved_usd": 2.3016e-05
+    },
+    {
+      "id": "f7bb3826d3134e6a471f1ecc0b80269c",
+      "run": null,
+      "cohort": "validation",
+      "created": 1789760841.4230444,
+      "state": {
+        "goal": "Explain the difference between browser automation and an API.",
+        "available_apis": [],
+        "browser_selection": "auto",
+        "option_order": "forward"
+      },
+      "baseline": "planning",
+      "route": {},
+      "status": "complete",
+      "result": {
+        "status": "available",
+        "advisory": true,
+        "purpose": "browser-intent-v1",
+        "judgment": {
+          "type": "choice",
+          "choice": "planning",
+          "probabilities": {
+            "api": 0.0,
+            "browser": 0.0,
+            "planning": 1.0,
+            "needs_context": 0.0
+          },
+          "confidence": 1.0
+        },
+        "model": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 543,
+          "output_tokens": 52
+        },
+        "cost_usd": 2.2806e-05,
+        "latency_ms": 471,
+        "attempts": 1
+      },
+      "elapsed_ms": 508,
+      "label": "planning",
+      "label_note": "Frozen synthetic reference: tests/fixtures/jev-pilot.json#explain-browser",
+      "labeled_at": 1789760841.423092,
+      "baseline_source": "fixture_reference",
+      "workflow_status": null,
+      "spent_and_reserved_usd": 2.2806e-05
+    },
+    {
+      "id": "bba0ef653a03699b19bb0a36eadf5e93",
+      "run": null,
+      "cohort": "validation",
+      "created": 1789760841.4318206,
+      "state": {
+        "goal": "Explain the difference between browser automation and an API.",
+        "available_apis": [],
+        "browser_selection": "auto",
+        "option_order": "reverse"
+      },
+      "baseline": "planning",
+      "route": {},
+      "status": "complete",
+      "result": {
+        "status": "available",
+        "advisory": true,
+        "purpose": "browser-intent-v1",
+        "judgment": {
+          "type": "choice",
+          "choice": "planning",
+          "probabilities": {
+            "api": 0.0,
+            "needs_context": 0.0,
+            "planning": 1.0,
+            "browser": 0.0
+          },
+          "confidence": 1.0
+        },
+        "model": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 543,
+          "output_tokens": 52
+        },
+        "cost_usd": 2.2806e-05,
+        "latency_ms": 422,
+        "attempts": 1
+      },
+      "elapsed_ms": 479,
+      "label": "planning",
+      "label_note": "Frozen synthetic reference: tests/fixtures/jev-pilot.json#explain-browser",
+      "labeled_at": 1789760841.431878,
+      "baseline_source": "fixture_reference",
+      "workflow_status": null,
+      "spent_and_reserved_usd": 2.2806e-05
+    },
+    {
+      "id": "5098bdf4db23a71d3310cd3a0726f474",
+      "run": null,
+      "cohort": "validation",
+      "created": 1789760841.4419956,
+      "state": {
+        "goal": "Fetch the public JSON at https://example.com/data.json now.",
+        "available_apis": [
+          {
+            "integration": "decodo-http",
+            "operations": [
+              "Fetch a public HTTP URL"
+            ]
+          }
+        ],
+        "browser_selection": "auto",
+        "option_order": "forward"
+      },
+      "baseline": "api",
+      "route": {},
+      "status": "complete",
+      "result": {
+        "status": "available",
+        "advisory": true,
+        "purpose": "browser-intent-v1",
+        "judgment": {
+          "type": "choice",
+          "choice": "api",
+          "probabilities": {
+            "needs_context": 0.0,
+            "planning": 0.0,
+            "browser": 0.01,
+            "api": 0.99
+          },
+          "confidence": 0.99
+        },
+        "model": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 570,
+          "output_tokens": 50
+        },
+        "cost_usd": 2.394e-05,
+        "latency_ms": 516,
+        "attempts": 1
+      },
+      "elapsed_ms": 556,
+      "label": "api",
+      "label_note": "Frozen synthetic reference: tests/fixtures/jev-pilot.json#public-fetch",
+      "labeled_at": 1789760841.4420512,
+      "baseline_source": "fixture_reference",
+      "workflow_status": null,
+      "spent_and_reserved_usd": 2.394e-05
+    },
+    {
+      "id": "ccaf63261af34977758d8e60fba972a3",
+      "run": null,
+      "cohort": "validation",
+      "created": 1789760841.453456,
+      "state": {
+        "goal": "Fetch the public JSON at https://example.com/data.json now.",
+        "available_apis": [
+          {
+            "integration": "decodo-http",
+            "operations": [
+              "Fetch a public HTTP URL"
+            ]
+          }
+        ],
+        "browser_selection": "auto",
+        "option_order": "reverse"
+      },
+      "baseline": "api",
+      "route": {},
+      "status": "complete",
+      "result": {
+        "status": "available",
+        "advisory": true,
+        "purpose": "browser-intent-v1",
+        "judgment": {
+          "type": "choice",
+          "choice": "api",
+          "probabilities": {
+            "planning": 0.0,
+            "needs_context": 0.0,
+            "browser": 0.01,
+            "api": 0.99
+          },
+          "confidence": 0.99
+        },
+        "model": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 570,
+          "output_tokens": 50
+        },
+        "cost_usd": 2.394e-05,
+        "latency_ms": 433,
+        "attempts": 1
+      },
+      "elapsed_ms": 473,
+      "label": "api",
+      "label_note": "Frozen synthetic reference: tests/fixtures/jev-pilot.json#public-fetch",
+      "labeled_at": 1789760841.4535172,
+      "baseline_source": "fixture_reference",
+      "workflow_status": null,
+      "spent_and_reserved_usd": 2.394e-05
+    },
+    {
+      "id": "ed4c77a1a6da9a519333f0a789fb15d2",
+      "run": null,
+      "cohort": "validation",
+      "created": 1789760841.4621503,
+      "state": {
+        "goal": "Open https://example.com/data.json in my selected browser.",
+        "available_apis": [
+          {
+            "integration": "decodo-http",
+            "operations": [
+              "Fetch a public HTTP URL"
+            ]
+          }
+        ],
+        "browser_selection": "explicit",
+        "option_order": "forward"
+      },
+      "baseline": "browser",
+      "route": {},
+      "status": "complete",
+      "result": {
+        "status": "available",
+        "advisory": true,
+        "purpose": "browser-intent-v1",
+        "judgment": {
+          "type": "choice",
+          "choice": "browser",
+          "probabilities": {
+            "browser": 0.92,
+            "api": 0.05,
+            "planning": 0.0,
+            "needs_context": 0.03
+          },
+          "confidence": 0.9
+        },
+        "model": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 569,
+          "output_tokens": 50
+        },
+        "cost_usd": 2.3898e-05,
+        "latency_ms": 443,
+        "attempts": 1
+      },
+      "elapsed_ms": 479,
+      "label": "browser",
+      "label_note": "Frozen synthetic reference: tests/fixtures/jev-pilot.json#explicit-browser",
+      "labeled_at": 1789760841.4622617,
+      "baseline_source": "fixture_reference",
+      "workflow_status": null,
+      "spent_and_reserved_usd": 2.3898e-05
+    },
+    {
+      "id": "3d4ecc110fcc19a92bf0b32e4924a13f",
+      "run": null,
+      "cohort": "validation",
+      "created": 1789760841.4734654,
+      "state": {
+        "goal": "Open https://example.com/data.json in my selected browser.",
+        "available_apis": [
+          {
+            "integration": "decodo-http",
+            "operations": [
+              "Fetch a public HTTP URL"
+            ]
+          }
+        ],
+        "browser_selection": "explicit",
+        "option_order": "reverse"
+      },
+      "baseline": "browser",
+      "route": {},
+      "status": "complete",
+      "result": {
+        "status": "available",
+        "advisory": true,
+        "purpose": "browser-intent-v1",
+        "judgment": {
+          "type": "choice",
+          "choice": "browser",
+          "probabilities": {
+            "planning": 0.0,
+            "needs_context": 0.04,
+            "browser": 0.95,
+            "api": 0.01
+          },
+          "confidence": 0.93
+        },
+        "model": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 569,
+          "output_tokens": 50
+        },
+        "cost_usd": 2.3898e-05,
+        "latency_ms": 443,
+        "attempts": 1
+      },
+      "elapsed_ms": 487,
+      "label": "browser",
+      "label_note": "Frozen synthetic reference: tests/fixtures/jev-pilot.json#explicit-browser",
+      "labeled_at": 1789760841.4735289,
+      "baseline_source": "fixture_reference",
+      "workflow_status": null,
+      "spent_and_reserved_usd": 2.3898e-05
+    },
+    {
+      "id": "5510ccf06558ab76ab363bad18d62f1c",
+      "run": null,
+      "cohort": "validation",
+      "created": 1789760841.4855576,
+      "state": {
+        "goal": "Read the invoice visible in my already signed-in browser tab.",
+        "available_apis": [],
+        "browser_selection": "auto",
+        "option_order": "forward"
+      },
+      "baseline": "browser",
+      "route": {},
+      "status": "complete",
+      "result": {
+        "status": "available",
+        "advisory": true,
+        "purpose": "browser-intent-v1",
+        "judgment": {
+          "type": "choice",
+          "choice": "browser",
+          "probabilities": {
+            "planning": 0.0,
+            "browser": 0.92,
+            "api": 0.0,
+            "needs_context": 0.08
+          },
+          "confidence": 0.89
+        },
+        "model": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 544,
+          "output_tokens": 50
+        },
+        "cost_usd": 2.2848e-05,
+        "latency_ms": 480,
+        "attempts": 1
+      },
+      "elapsed_ms": 512,
+      "label": "browser",
+      "label_note": "Frozen synthetic reference: tests/fixtures/jev-pilot.json#signed-in",
+      "labeled_at": 1789760841.4856205,
+      "baseline_source": "fixture_reference",
+      "workflow_status": null,
+      "spent_and_reserved_usd": 2.2848e-05
+    },
+    {
+      "id": "cfba6c3a7560a6455036812e60db7a55",
+      "run": null,
+      "cohort": "validation",
+      "created": 1789760841.4942415,
+      "state": {
+        "goal": "Read the invoice visible in my already signed-in browser tab.",
+        "available_apis": [],
+        "browser_selection": "auto",
+        "option_order": "reverse"
+      },
+      "baseline": "browser",
+      "route": {},
+      "status": "complete",
+      "result": {
+        "status": "available",
+        "advisory": true,
+        "purpose": "browser-intent-v1",
+        "judgment": {
+          "type": "choice",
+          "choice": "browser",
+          "probabilities": {
+            "needs_context": 0.15,
+            "api": 0.0,
+            "browser": 0.85,
+            "planning": 0.0
+          },
+          "confidence": 0.8
+        },
+        "model": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 544,
+          "output_tokens": 50
+        },
+        "cost_usd": 2.2848e-05,
+        "latency_ms": 494,
+        "attempts": 1
+      },
+      "elapsed_ms": 525,
+      "label": "browser",
+      "label_note": "Frozen synthetic reference: tests/fixtures/jev-pilot.json#signed-in",
+      "labeled_at": 1789760841.494296,
+      "baseline_source": "fixture_reference",
+      "workflow_status": null,
+      "spent_and_reserved_usd": 2.2848e-05
+    },
+    {
+      "id": "2885fe601527265a85a24abf522811b8",
+      "run": null,
+      "cohort": "validation",
+      "created": 1789760841.503721,
+      "state": {
+        "goal": "Do that same thing again.",
+        "available_apis": [],
+        "browser_selection": "auto",
+        "option_order": "forward"
+      },
+      "baseline": "needs_context",
+      "route": {},
+      "status": "complete",
+      "result": {
+        "status": "available",
+        "advisory": true,
+        "purpose": "browser-intent-v1",
+        "judgment": {
+          "type": "choice",
+          "choice": "needs_context",
+          "probabilities": {
+            "planning": 0.0,
+            "browser": 0.02,
+            "api": 0.0,
+            "needs_context": 0.98
+          },
+          "confidence": 0.97
+        },
+        "model": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 538,
+          "output_tokens": 51
+        },
+        "cost_usd": 2.2596e-05,
+        "latency_ms": 428,
+        "attempts": 1
+      },
+      "elapsed_ms": 466,
+      "label": "needs_context",
+      "label_note": "Frozen synthetic reference: tests/fixtures/jev-pilot.json#missing-context",
+      "labeled_at": 1789760841.503784,
+      "baseline_source": "fixture_reference",
+      "workflow_status": null,
+      "spent_and_reserved_usd": 2.2596e-05
+    },
+    {
+      "id": "0359c120685ca2e73e3610604e01ab1f",
+      "run": null,
+      "cohort": "validation",
+      "created": 1789760841.5125873,
+      "state": {
+        "goal": "Do that same thing again.",
+        "available_apis": [],
+        "browser_selection": "auto",
+        "option_order": "reverse"
+      },
+      "baseline": "needs_context",
+      "route": {},
+      "status": "complete",
+      "result": {
+        "status": "available",
+        "advisory": true,
+        "purpose": "browser-intent-v1",
+        "judgment": {
+          "type": "choice",
+          "choice": "needs_context",
+          "probabilities": {
+            "api": 0.0,
+            "browser": 0.01,
+            "planning": 0.0,
+            "needs_context": 0.99
+          },
+          "confidence": 0.98
+        },
+        "model": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 538,
+          "output_tokens": 51
+        },
+        "cost_usd": 2.2596e-05,
+        "latency_ms": 381,
+        "attempts": 1
+      },
+      "elapsed_ms": 413,
+      "label": "needs_context",
+      "label_note": "Frozen synthetic reference: tests/fixtures/jev-pilot.json#missing-context",
+      "labeled_at": 1789760841.512649,
+      "baseline_source": "fixture_reference",
+      "workflow_status": null,
+      "spent_and_reserved_usd": 2.2596e-05
+    },
+    {
+      "id": "1bdae9fbd1f3d357559c55e1dc8005d4",
+      "run": null,
+      "cohort": "validation",
+      "created": 1789760841.527533,
+      "state": {
+        "goal": "Use the satellite-control API to launch a satellite now.",
+        "available_apis": [
+          {
+            "integration": "decodo-http",
+            "operations": [
+              "Fetch a public HTTP URL"
+            ]
+          }
+        ],
+        "browser_selection": "auto",
+        "option_order": "forward"
+      },
+      "baseline": "needs_context",
+      "route": {},
+      "status": "complete",
+      "result": {
+        "status": "available",
+        "advisory": true,
+        "purpose": "browser-intent-v1",
+        "judgment": {
+          "type": "choice",
+          "choice": "needs_context",
+          "probabilities": {
+            "planning": 0.0,
+            "browser": 0.24,
+            "needs_context": 0.73,
+            "api": 0.03
+          },
+          "confidence": 0.63
+        },
+        "model": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 568,
+          "output_tokens": 51
+        },
+        "cost_usd": 2.3856e-05,
+        "latency_ms": 405,
+        "attempts": 1
+      },
+      "elapsed_ms": 439,
+      "label": "needs_context",
+      "label_note": "Frozen synthetic reference: tests/fixtures/jev-pilot.json#unsupported",
+      "labeled_at": 1789760841.5276012,
+      "baseline_source": "fixture_reference",
+      "workflow_status": null,
+      "spent_and_reserved_usd": 2.3856e-05
+    },
+    {
+      "id": "b1f937c141fd080ba4635025b05de56d",
+      "run": null,
+      "cohort": "validation",
+      "created": 1789760841.540593,
+      "state": {
+        "goal": "Use the satellite-control API to launch a satellite now.",
+        "available_apis": [
+          {
+            "integration": "decodo-http",
+            "operations": [
+              "Fetch a public HTTP URL"
+            ]
+          }
+        ],
+        "browser_selection": "auto",
+        "option_order": "reverse"
+      },
+      "baseline": "needs_context",
+      "route": {},
+      "status": "complete",
+      "result": {
+        "status": "available",
+        "advisory": true,
+        "purpose": "browser-intent-v1",
+        "judgment": {
+          "type": "choice",
+          "choice": "needs_context",
+          "probabilities": {
+            "api": 0.02,
+            "browser": 0.21,
+            "planning": 0.0,
+            "needs_context": 0.77
+          },
+          "confidence": 0.69
+        },
+        "model": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 568,
+          "output_tokens": 51
+        },
+        "cost_usd": 2.3856e-05,
+        "latency_ms": 525,
+        "attempts": 1
+      },
+      "elapsed_ms": 567,
+      "label": "needs_context",
+      "label_note": "Frozen synthetic reference: tests/fixtures/jev-pilot.json#unsupported",
+      "labeled_at": 1789760841.5406501,
+      "baseline_source": "fixture_reference",
+      "workflow_status": null,
+      "spent_and_reserved_usd": 2.3856e-05
+    },
+    {
+      "id": "f47dbe3eb415116c561059b7f2b7112c",
+      "run": null,
+      "cohort": "validation",
+      "created": 1789760841.5506358,
+      "state": {
+        "goal": "Only write a plan for filling out the form later. Do not interact with the site now.",
+        "available_apis": [],
+        "browser_selection": "explicit",
+        "option_order": "forward"
+      },
+      "baseline": "planning",
+      "route": {},
+      "status": "complete",
+      "result": {
+        "status": "available",
+        "advisory": true,
+        "purpose": "browser-intent-v1",
+        "judgment": {
+          "type": "choice",
+          "choice": "planning",
+          "probabilities": {
+            "api": 0.0,
+            "needs_context": 0.06,
+            "planning": 0.93,
+            "browser": 0.01
+          },
+          "confidence": 0.9
+        },
+        "model": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 551,
+          "output_tokens": 52
+        },
+        "cost_usd": 2.3142e-05,
+        "latency_ms": 433,
+        "attempts": 1
+      },
+      "elapsed_ms": 475,
+      "label": "planning",
+      "label_note": "Frozen synthetic reference: tests/fixtures/jev-pilot.json#plan-selected-browser",
+      "labeled_at": 1789760841.5507004,
+      "baseline_source": "fixture_reference",
+      "workflow_status": null,
+      "spent_and_reserved_usd": 2.3142e-05
+    },
+    {
+      "id": "3fcbc9be87fc9b68f7d710bd172e3c57",
+      "run": null,
+      "cohort": "validation",
+      "created": 1789760841.5618045,
+      "state": {
+        "goal": "Only write a plan for filling out the form later. Do not interact with the site now.",
+        "available_apis": [],
+        "browser_selection": "explicit",
+        "option_order": "reverse"
+      },
+      "baseline": "planning",
+      "route": {},
+      "status": "complete",
+      "result": {
+        "status": "available",
+        "advisory": true,
+        "purpose": "browser-intent-v1",
+        "judgment": {
+          "type": "choice",
+          "choice": "planning",
+          "probabilities": {
+            "needs_context": 0.05,
+            "browser": 0.01,
+            "api": 0.0,
+            "planning": 0.94
+          },
+          "confidence": 0.92
+        },
+        "model": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 551,
+          "output_tokens": 52
+        },
+        "cost_usd": 2.3142e-05,
+        "latency_ms": 430,
+        "attempts": 1
+      },
+      "elapsed_ms": 475,
+      "label": "planning",
+      "label_note": "Frozen synthetic reference: tests/fixtures/jev-pilot.json#plan-selected-browser",
+      "labeled_at": 1789760841.5618677,
+      "baseline_source": "fixture_reference",
+      "workflow_status": null,
+      "spent_and_reserved_usd": 2.3142e-05
+    }
+  ]
+}

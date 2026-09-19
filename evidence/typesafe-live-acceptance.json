@@ -1,0 +1,289 @@
+{
+  "staging": {
+    "at": 1789685212.7264059,
+    "cases": [
+      {
+        "case": "supported",
+        "expected": "supported",
+        "passed": true,
+        "result": {
+          "status": "available",
+          "advisory": true,
+          "purpose": "evidence",
+          "judgment": {
+            "type": "choice",
+            "choice": "supported",
+            "probabilities": {
+              "supported": 1.0,
+              "contradicted": 0.0,
+              "insufficient_evidence": 0.0
+            },
+            "confidence": 1.0
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 421,
+            "output_tokens": 49
+          },
+          "cost_usd": 1.7682e-05,
+          "latency_ms": 701,
+          "attempts": 1
+        }
+      },
+      {
+        "case": "contradicted",
+        "expected": "contradicted",
+        "passed": true,
+        "result": {
+          "status": "available",
+          "advisory": true,
+          "purpose": "evidence",
+          "judgment": {
+            "type": "choice",
+            "choice": "contradicted",
+            "probabilities": {
+              "insufficient_evidence": 0.0,
+              "contradicted": 1.0,
+              "supported": 0.0
+            },
+            "confidence": 1.0
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 425,
+            "output_tokens": 52
+          },
+          "cost_usd": 1.785e-05,
+          "latency_ms": 443,
+          "attempts": 1
+        }
+      },
+      {
+        "case": "unsupported",
+        "expected": "insufficient_evidence",
+        "passed": true,
+        "result": {
+          "status": "available",
+          "advisory": true,
+          "purpose": "evidence",
+          "judgment": {
+            "type": "choice",
+            "choice": "insufficient_evidence",
+            "probabilities": {
+              "contradicted": 0.0,
+              "insufficient_evidence": 1.0,
+              "supported": 0.0
+            },
+            "confidence": 1.0
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 419,
+            "output_tokens": 55
+          },
+          "cost_usd": 1.7598e-05,
+          "latency_ms": 495,
+          "attempts": 1
+        }
+      },
+      {
+        "case": "source-instructions",
+        "expected": "contradicted",
+        "passed": true,
+        "result": {
+          "status": "available",
+          "advisory": true,
+          "purpose": "evidence",
+          "judgment": {
+            "type": "choice",
+            "choice": "contradicted",
+            "probabilities": {
+              "contradicted": 0.99,
+              "insufficient_evidence": 0.01,
+              "supported": 0.0
+            },
+            "confidence": 0.98
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 427,
+            "output_tokens": 52
+          },
+          "cost_usd": 1.7934e-05,
+          "latency_ms": 400,
+          "attempts": 1
+        }
+      },
+      {
+        "case": "http-route",
+        "expected": "decodo-http",
+        "passed": true,
+        "result": {
+          "status": "available",
+          "advisory": true,
+          "purpose": "routing",
+          "judgment": {
+            "type": "choice",
+            "choice": "decodo-http",
+            "probabilities": {
+              "decodo-http": 0.98,
+              "no_match": 0.02
+            },
+            "confidence": 0.97
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 413,
+            "output_tokens": 38
+          },
+          "cost_usd": 1.7346e-05,
+          "latency_ms": 378,
+          "attempts": 1,
+          "eligible_routes": [
+            "decodo-http"
+          ]
+        }
+      },
+      {
+        "case": "route-no-match",
+        "expected": "no_match",
+        "passed": true,
+        "result": {
+          "status": "available",
+          "advisory": true,
+          "purpose": "routing",
+          "judgment": {
+            "type": "choice",
+            "choice": "no_match",
+            "probabilities": {
+              "no_match": 1.0
+            },
+            "confidence": 1.0
+          },
+          "model": null,
+          "usage": {
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          "cost_usd": 0,
+          "eligible_routes": [],
+          "origin": "deterministic_eligibility"
+        }
+      }
+    ],
+    "passed": 6,
+    "count": 6,
+    "model_calls": 5,
+    "cost_usd": 8.841e-05,
+    "latency_ms": [
+      701,
+      443,
+      495,
+      400,
+      378
+    ],
+    "ledger": {
+      "model": "jev-1.13.0",
+      "configured": true,
+      "month": "2026-09",
+      "timezone": "America/New_York",
+      "limit_usd": 5,
+      "spent_and_reserved_usd": 8.841e-05,
+      "remaining_usd": 4.99991159,
+      "advisory": true,
+      "enabled": true
+    }
+  },
+  "post_activation": {
+    "revision": "f0c544c",
+    "public_dashboard": "https://superbrowser.online",
+    "authenticated_bootstrap": true,
+    "owner_login_form": true,
+    "unauthenticated_api_mcp": [
+      401,
+      401
+    ],
+    "mcp_tool_registered": true,
+    "documentation_resources": 111,
+    "official_source_and_freshness": true,
+    "duplicate_request_reused": true,
+    "connection_status": "partial",
+    "live_advice": {
+      "status": "available",
+      "advisory": true,
+      "purpose": "evidence",
+      "judgment": {
+        "type": "choice",
+        "choice": "insufficient_evidence",
+        "probabilities": {
+          "insufficient_evidence": 1.0,
+          "contradicted": 0.0,
+          "supported": 0.0
+        },
+        "confidence": 1.0
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 420,
+        "output_tokens": 55
+      },
+      "cost_usd": 1.764e-05,
+      "latency_ms": 538,
+      "attempts": 1
+    },
+    "ledger": {
+      "model": "jev-1.13.0",
+      "configured": true,
+      "month": "2026-09",
+      "timezone": "America/New_York",
+      "limit_usd": 5,
+      "spent_and_reserved_usd": 0.00010605,
+      "remaining_usd": 4.99989395,
+      "advisory": true,
+      "enabled": true
+    },
+    "hermes_source_fingerprint": "25d513a1eb80a014f6550a7de2d666b2dcae2ac4332c7955419e53a745f1632b",
+    "connection_state": "connection_verified"
+  },
+  "hermes": {
+    "session_id": "2dfd63441647f275fe9eb8ab",
+    "run_status": "complete",
+    "hermes_cost_usd": 0.00121,
+    "advice": {
+      "status": "available",
+      "advisory": true,
+      "purpose": "evidence",
+      "judgment": {
+        "type": "choice",
+        "choice": "supported",
+        "probabilities": {
+          "contradicted": 0.0,
+          "insufficient_evidence": 0.0,
+          "supported": 1.0
+        },
+        "confidence": 1.0
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 419,
+        "output_tokens": 49
+      },
+      "cost_usd": 1.7598e-05,
+      "latency_ms": 460,
+      "attempts": 1
+    }
+  },
+  "global_skill_authenticated": true,
+  "final_typesafe_cost_usd": 0.000123648,
+  "remaining_monthly_usd": 4.999876352,
+  "visual_check": "Blocked by browser admin-policy verification; not bypassed.",
+  "github": {
+    "pull_request": "https://github.com/jbellsolutions/super-browser/pull/52",
+    "merged": true,
+    "merge_sha": "bd8914a58b5fa886d1b7143dafba45bfd1bdf8aa",
+    "verified_head": "0dc70b62faeed3689738f791a95e1da31b9d7e94",
+    "checks": "Python 3.10, Python 3.12 and minimal install passed",
+    "run": "https://github.com/jbellsolutions/super-browser/actions/runs/35285094906"
+  },
+  "rollback_revision": "13c0824"
+}

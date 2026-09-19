@@ -1,0 +1,1251 @@
+{
+  "generated": "2026-09-19",
+  "purpose": "Verifiable agent handoff bundle",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 105,
+      "sha256": "8d43193d32b79944131131563fc1d435e275c8154c72cc7966264f06e1d19a90"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 4178,
+      "sha256": "b014eaf05ddd9b04d326b7fd07ed778a56fea0274aff24f5f3ad57d69efe3f8e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2257,
+      "sha256": "0117875ac46173b2879c07ea974ece0fcbf28a9524212ccd80499af332c24bba"
+    },
+    {
+      "path": "docs/EMAIL-APPLICATION-BUILD-BRIEF.md",
+      "bytes": 2547,
+      "sha256": "03c2e94cd90acd237b8a3665a5e54f4699140841a7b73917b3c7869168ef4cca"
+    },
+    {
+      "path": "evidence/jev-pilot-validation.json",
+      "bytes": 23388,
+      "sha256": "2da24011217293ff2715e037c7f36b64a65d3b2a007c8fc917577f15ad933c7b"
+    },
+    {
+      "path": "evidence/typesafe-live-acceptance.json",
+      "bytes": 7658,
+      "sha256": "b84a546b533748ec9f80f7840d25668d721fffc3bdb320c1b0fc631513880fca"
+    },
+    {
+      "path": "reference-implementation/pilot.py",
+      "bytes": 20090,
+      "sha256": "c24c3c9b2bc37043350157620747adab0b9ab6f5ce5522668bd2737e7a72c3dc"
+    },
+    {
+      "path": "reference-implementation/tests/test_pilot.py",
+      "bytes": 9093,
+      "sha256": "0e0e42dff3eaa0e26c65d2bcbc7fa0825d51b600d0eee817854cc1c36b066c8b"
+    },
+    {
+      "path": "skill/typesafe-ai/LICENSE",
+      "bytes": 1068,
+      "sha256": "835f233f1d6ed84a9b9a351aba0689b47644a4137d6316911fc7957bde523b02"
+    },
+    {
+      "path": "skill/typesafe-ai/SKILL.md",
+      "bytes": 11035,
+      "sha256": "83be9c8e1d10386a3bc4ed7bb174f36081e954933daa6f53d01c3a27045a970e"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/INDEX.md",
+      "bytes": 15538,
+      "sha256": "d6f817d3dfb0e0dbf271449cc793305de9c6431daf8288f1b2ee847d5a14bece"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/llms.txt",
+      "bytes": 16744,
+      "sha256": "f2502da4eaf57a5863fe6fe0b8f4ee84d846db4f68a3b81a9710b8efd71f888b"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/manifest.json",
+      "bytes": 39139,
+      "sha256": "c18abe3ed3d8e3fcfef51e2111bcee7884cb6261093f95f0df2e636e5c109fb9"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/agent-skill.md",
+      "bytes": 5739,
+      "sha256": "27101600c9410b2975c25bd4c8fc3bed643ca263bc81a8a7608a410b365b79f0"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/api.md",
+      "bytes": 10173,
+      "sha256": "2745d231bb5f1d4d4d1ae66e77471230f7728c465fa80cda1b733646115f877b"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/concepts/how-to-build-with-system-one.md",
+      "bytes": 38177,
+      "sha256": "b4ca247783ad76bcdeb1b3ec278d07e5e8615f49ecc78ce825062fab22483b49"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/concepts/state.md",
+      "bytes": 3627,
+      "sha256": "524448eececafa8bf523a25564115c49c501df45ead0930492d3309796875c49"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/concepts/system-one.md",
+      "bytes": 4009,
+      "sha256": "266fd19e88c88fa0f17e5508cec92a38c4b4471dc78ea5d1929e45673b31b441"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/concepts/use-case-map.md",
+      "bytes": 11628,
+      "sha256": "261509015e87a0509d7a402582a8992d4565b031439e28016c3178b5814722f6"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/confidence.md",
+      "bytes": 4806,
+      "sha256": "adc925753c6c163a1be2b126829cbd7b943b850c31c3d31c903e734b54728f23"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/cookbooks/autoformat.md",
+      "bytes": 27366,
+      "sha256": "07aa3b78cd9f07487aaa22ff379a6ca90f23c400b81ce4d7d9cfad5eb0e5bb41"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/cookbooks/autoresearch_feature_discovery.md",
+      "bytes": 62326,
+      "sha256": "dba8d5b2d9582f8fb9225b489b691ed4a8d3b4dcd0142b421974e8117e9debed"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/cookbooks/citation_check.md",
+      "bytes": 14487,
+      "sha256": "9eadbb147ad773765bc222e86d32efea47750d626dd834762d747bf293671bf5"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/cookbooks/classification_using_confidence.md",
+      "bytes": 16266,
+      "sha256": "6e3b776f6fea93d00fb9568f9c86be0abc3a91c3c80f671e82c07c9966eae37b"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/cookbooks/classifying_rag_passages.md",
+      "bytes": 30889,
+      "sha256": "b6cc3b1be231cf117676eb512a8e65b375c33e10c0103f9eb991f51544ea76c5"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/cookbooks/consistency_choice_cookbook.md",
+      "bytes": 46764,
+      "sha256": "fce19e6f9a12ff13ff98d0ec7ddd269e8de086371e1cb3f6565c467aa56a9ede"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/cookbooks/consistency_noul_cookbook.md",
+      "bytes": 29958,
+      "sha256": "e42a8fcbb19a1bbf4856302fa1ca3e0c3b0c9a39a43900b09d350db3fe05134e"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/cookbooks/date_extraction_cookbook.md",
+      "bytes": 17035,
+      "sha256": "3033bb50d0cafad6971cdd300ffd732228885807846a41f80de13f7e5042128d"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/cookbooks/entity_alignment.md",
+      "bytes": 15754,
+      "sha256": "3ddcb2dabd0f3038a9601f798aef0af4461b5ee5ed569af115aa659337d8f4e9"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/cookbooks/function_calling.md",
+      "bytes": 16343,
+      "sha256": "5e5db4859b5bbe422348142d301dc6789e19ee3e7603ae58c8f21d9d21fdcbbe"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/cookbooks/hierarchical_classification.md",
+      "bytes": 36382,
+      "sha256": "bce31aa511d5a1f498b2924241df072ebdbc9c4178c6a6ba00f22a1ae0ecfeb6"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/cookbooks/llm_guardrails.md",
+      "bytes": 20383,
+      "sha256": "6fdf361c017e44afe13084002902a7ce870fcfbd0ccc2a4572205fdb84327cd2"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/cookbooks/parallel_questions.md",
+      "bytes": 14755,
+      "sha256": "9ddfa6eeca97566e26c8a096d82c38172d71f04f5195b885cafa596361643b16"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/cookbooks/pre_parsed_value_extraction_cookbook.md",
+      "bytes": 11796,
+      "sha256": "f2ca66586d2ea47bc0bd88681e589aabdd266dde3400c57735fdf4faea98cfd5"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/cookbooks/rerank_typesafe.md",
+      "bytes": 26047,
+      "sha256": "4c7bd5730e32a041e67b56f151ce3c8ac0b8aa84b419ee1178885295f8df47c8"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/cookbooks/sde_cascade.md",
+      "bytes": 25817,
+      "sha256": "fb64df52ecea4781d1392c01b56a72e426ffa1ac3a0c5cb665f1f405fc43c597"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/cookbooks/semantic_find.md",
+      "bytes": 37821,
+      "sha256": "236ee94bb831dcb10280bd36929ce9ea9eb522f0938c8225debdbffaddb14e3c"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/cookbooks/skill_suggestion.md",
+      "bytes": 36970,
+      "sha256": "8a25234a44db2688536e519a153dcc11b29350301c65dd76af6f1ddc5ec3820b"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/demos/smart-home.md",
+      "bytes": 3746,
+      "sha256": "f2c2562863c7e74371102d8a20f8bac3d1d8848c7678c8083ef80a46db1522fb"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/demos.md",
+      "bytes": 495,
+      "sha256": "d4fe1afee4309d91a8ed05dc5c80244b46cca231267be554a50520c044a61303"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/introduction/machine-learning-primer.md",
+      "bytes": 6521,
+      "sha256": "f311cc9d32823e612c5cc0f6f823d42d540f6ffcc7b2d83eb485ab76de6ae51f"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/introduction/quickstart.md",
+      "bytes": 6998,
+      "sha256": "841d487fecddbf6d65d2f50fc88fc5c7274313521133b0ff0d1c6d000de8dc4a"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/introduction.md",
+      "bytes": 3524,
+      "sha256": "c4f5a969d0a05933ec980525bf00ddcf799e622d651ee27b987716bf9068aec9"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/legal.md",
+      "bytes": 964,
+      "sha256": "65a46198218bd31da7d50c0cba1edf381af952029260d26c5568152169e8fea6"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/model-jaggedness/jev-1.13.md",
+      "bytes": 9838,
+      "sha256": "c7a07454c3f4d22076cd92faaff36aa5dfbdb43e970a0e8eaaa22012019b0f5b"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/models.md",
+      "bytes": 4601,
+      "sha256": "0448eb58e8d161216b6ff5b98df7be3e3b3addafc2944cfa7eaf78d17d7a4e1c"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/patterns/composite-scoring.md",
+      "bytes": 12188,
+      "sha256": "74aef662dd13879c800208860d66f63a6bd4ee01af4f4c49e88fe4643bfd870a"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/patterns/confidence-routing.md",
+      "bytes": 11082,
+      "sha256": "a8cc4046a2e8b8870c9c799963ee638f5bd239485c7925e5734cb76f155610be"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/patterns/fan-out.md",
+      "bytes": 12624,
+      "sha256": "896092f3742b2c70e0d7c009b5b54c05d16cbb2c5dbb6963e55b57710c079018"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/patterns/intent-routing.md",
+      "bytes": 11971,
+      "sha256": "567ed7537990d796a86701f652ab7766636171da4dd7c6432592e55f8752cbb3"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/patterns.md",
+      "bytes": 1940,
+      "sha256": "2f4fbadbc5414717b18ae86d25ca2b369e7784eb8414ac85e632d71751b185ae"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/primitives/advanced.md",
+      "bytes": 18840,
+      "sha256": "7dc76ce45b4f1df08369df8015d49a728e173ac5f87e9113a8eab2f64e2749ef"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/primitives/choice.md",
+      "bytes": 26467,
+      "sha256": "2597ddecddd04e900135f5a81a773cc8cdbc1aa0e1af35f1a635002c8919bc34"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/primitives/noul.md",
+      "bytes": 12827,
+      "sha256": "372774be3d47a7e17282bd22da2ff65de90346dac63b947fc3c6bf91bb052f05"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/primitives/score.md",
+      "bytes": 31680,
+      "sha256": "97f5d3427e5b1c2a7a85168ef54ef5d17441247439e36196c71efdc52289efa4"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/primitives.md",
+      "bytes": 24529,
+      "sha256": "2830ae9e408fc6e5e09dfec8227856232c4845568f8001264d317ebf801ad6f2"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/classes/APIConnectionError.md",
+      "bytes": 707,
+      "sha256": "f2c38d78299c2d411692d7816dd2b5a0e7bfb22318dace117637d179cd51b82c"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/classes/APIError.md",
+      "bytes": 1736,
+      "sha256": "ccd52b0babca7649c5bdeddd220f45219fe6cc2beb9ab6794731705d65d6e1d1"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/classes/APIPromise.md",
+      "bytes": 3339,
+      "sha256": "5b4e76a9f2ea6c1066398fcd16b5710867c9eb9624cd5fe8f8b249c4536fcab9"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/classes/APITimeoutError.md",
+      "bytes": 760,
+      "sha256": "5f728aec469f27ef9f2a7ecea775f52f41d5ef1d57793b4f756c788dabfaf93e"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/classes/APIUserAbortError.md",
+      "bytes": 623,
+      "sha256": "1d552684a3ce33f87d4f4ca7dd9ac9b176dfb6c44b4d8cb0b7c46d69d2d4cd74"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/classes/AuthenticationError.md",
+      "bytes": 1855,
+      "sha256": "dbd85d7cb0f60747be91ab7553b41740600de28d675ae35ed24327772049b725"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/classes/BadRequestError.md",
+      "bytes": 1836,
+      "sha256": "33824b0c3ec817bb09d969e386b8b94be06d3438a8905a2cfc6098bb345d4edd"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/classes/InternalServerError.md",
+      "bytes": 1873,
+      "sha256": "2d55ea0ff43a6a2f085310b4fd8e51db0b4a26545d590d25a27f0e7b9b3162dd"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/classes/NotFoundError.md",
+      "bytes": 1830,
+      "sha256": "2f268d8909c3a8c136f3651f9a791aef30339775b12f9e7c74b98a13295a7194"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/classes/PermissionDeniedError.md",
+      "bytes": 1860,
+      "sha256": "ef95ca72ac885f4b3691c098ae2c901c25ece30163581b2b3d0253478b2017f0"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/classes/RateLimitError.md",
+      "bytes": 2004,
+      "sha256": "f52e8f7895c91647a5626b0af3facbb50ddf0addc20016cb7ef1447e9a67026b"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/classes/TypeSafeClient.md",
+      "bytes": 2966,
+      "sha256": "b5a119cd427fbce5a13740549bbf0e74203c17b05e7f8d6eca66ff54df17f7ac"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/classes/TypeSafeError.md",
+      "bytes": 608,
+      "sha256": "175a6a9f10650b4c769c57bae4a0b95c38e73d7a8691b8b345fc259483af0c43"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/classes/UnprocessableEntityError.md",
+      "bytes": 1884,
+      "sha256": "b7de5fd51489d5def4db99647a77ec1867b0f183b2d3c773df952789da362d82"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/functions/choice.md",
+      "bytes": 670,
+      "sha256": "3e269385838bf3e369d0962c7a5fa37281c087c6eb5f31cb206f71e5e2b51832"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/functions/noul.md",
+      "bytes": 1073,
+      "sha256": "a2f221d44ae1c4072626a1501f13ad340238a45f4683adf05d97287f0e8236a7"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/functions/score.md",
+      "bytes": 664,
+      "sha256": "475187353dcfad892b8c754e116ca5593b210579bef8146f3c02160cbedd5e2c"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/interfaces/ChoiceQuestion.md",
+      "bytes": 681,
+      "sha256": "fd2d38d4ac23c2febacd57fa9077677d34f9ec6ed2bb04d8452e60c29f65b2f7"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/interfaces/ChoiceResponse.md",
+      "bytes": 805,
+      "sha256": "2bdb7cf27be8262ab920da7409c281ec19e347c7a466fd528ab5f625eff3d67e"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/interfaces/Logger.md",
+      "bytes": 893,
+      "sha256": "ff6732c7a877cc4d135e884bcfb405ded82fe8163e1837ccd6462aafa14ccb03"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/interfaces/ModelCard.md",
+      "bytes": 408,
+      "sha256": "434402d5db1f4ddcabd0d61112fdb693d2dc714eed247c71e8ff467465699ee6"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/interfaces/Models.md",
+      "bytes": 473,
+      "sha256": "8fc291386ea31906fc5d0de88bb5ba8d6c36d296a8e0b645e62a4eb37171962f"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/interfaces/NoulQuestion.md",
+      "bytes": 928,
+      "sha256": "0205bdc58ed1b20b5e7ecaf3f553c5a4f691b39d36355148217feb6d0a3517e0"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/interfaces/NoulResponse.md",
+      "bytes": 351,
+      "sha256": "829e2798516961ebc730bc2291ca86dabcb54d202971f6d052d4a9f41ccfad89"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/interfaces/Questions.md",
+      "bytes": 266,
+      "sha256": "e82efdcbff21c101fb229ca982efeee2aeb89b847ac9f99b5332bac2a385b349"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/interfaces/RequestOptions.md",
+      "bytes": 778,
+      "sha256": "12308ece662bb66146b048c0d37ddd323534901d6459b7f788d6fd8a165a6caf"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/interfaces/RetryPolicy.md",
+      "bytes": 1711,
+      "sha256": "0ccff11debd1f07d604b876fc87a2da139ea8661114788a28f6885739b0a15e3"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/interfaces/ScoreQuestion.md",
+      "bytes": 679,
+      "sha256": "a6511826efea1562c65559dfba528683beabe9a8238214d9de83027690dc151e"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/interfaces/ScoreResponse.md",
+      "bytes": 941,
+      "sha256": "5bbb66e40068226f8b0f83405efca878a23a20e1d48bcafffa69165f24d9f6b6"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/interfaces/SystemOneRequest.md",
+      "bytes": 841,
+      "sha256": "a24f81af574f1c4caacc4d834c22af07218d54065ae70ac8995d588306019a54"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/interfaces/SystemOneRequestPayload.md",
+      "bytes": 985,
+      "sha256": "f19766befeb844740b3c2cbae5762ddef6a49f0ed81efd5cf5748d63ac38053a"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/interfaces/SystemOneResult.md",
+      "bytes": 683,
+      "sha256": "3ebdaad1e4d61c0adce46925a75f7139a9c100c3cad7cd5a0a00a5502832aeab"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/interfaces/TypeSafeClientConfig.md",
+      "bytes": 1908,
+      "sha256": "3f3184bc49294024d86a339d5c0b16270fcae4a61de575ecb5487334c091130d"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/interfaces/Usage.md",
+      "bytes": 396,
+      "sha256": "b4f4379253c68b9793e1d5f4f83e434e3cb00d1677aef5e7fc12a91fd70a2822"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/interfaces/WithResponse.md",
+      "bytes": 588,
+      "sha256": "177790101dbacb27286b50c99a8a36c9c97cc9553f60e54145f08da242c7ce69"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/type-aliases/ChoiceCriteria.md",
+      "bytes": 345,
+      "sha256": "f7bf16f9c64f256197da6f8efe28068c649c2598f9b7ee235b8220805c004238"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/type-aliases/Description.md",
+      "bytes": 265,
+      "sha256": "4c36e1da424c4d1924747f807143993ba395a916bab1abccbfeb3787d65779f0"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/type-aliases/EntryType.md",
+      "bytes": 337,
+      "sha256": "ee41fd5676344be909bbab6c42a580cb809184e6d7725d1869c6f670a69bbffe"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/type-aliases/EnvVar.md",
+      "bytes": 206,
+      "sha256": "f0517d10395d8de0e7001d7d3e3955464153ae51e6421e45ff6ab940cb40f805"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/type-aliases/Fetch.md",
+      "bytes": 371,
+      "sha256": "5046705cffb429ca7cb32862be6293322ff3e47d1da24bc479730a6bffce352a"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/type-aliases/JsonValue.md",
+      "bytes": 306,
+      "sha256": "b3e68a891dd5200cbc6c48b42df132b4b852b6aee97f4341ec86b0801e27910c"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/type-aliases/LogLevel.md",
+      "bytes": 267,
+      "sha256": "ee281d0e1c83ffaeb1a48283ab3cd8ccb6f916b23f202625e0ebf18e16b4ca94"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/type-aliases/Question.md",
+      "bytes": 282,
+      "sha256": "1920bc6bc93f15daaf8cd4284b004a67b82d2b4c018aa0f410a9776181775be8"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/type-aliases/ResultFor.md",
+      "bytes": 479,
+      "sha256": "558b1c764bf8f2b252cc9a09d775aaf4bc01df866aa3614031c1ea310a1354ba"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/type-aliases/ScoreCriteria.md",
+      "bytes": 336,
+      "sha256": "432edd6dcb0df8e977be0955e423c813755ac06d447140056b29daa102d65684"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/type-aliases/ScoreLegend.md",
+      "bytes": 358,
+      "sha256": "ba283d96852b8cf3733e77065a623c84a78368634000a9d5fc2865043f18b55f"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/type-aliases/ScoreOf.md",
+      "bytes": 431,
+      "sha256": "c4b48150422b71a7ad184fb9156b4b225db861c3ad7d66d94bd7928b2da883d2"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/variables/ENV.md",
+      "bytes": 878,
+      "sha256": "0c48e2c881575c5954391f32de5b6156b52880e43fdfaf8f9448b6e2fa5cab6e"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/variables/LOG_LEVELS.md",
+      "bytes": 255,
+      "sha256": "de11ccfeb84b665036f65173b6fc152a45c049e0edf973a81e7461fcd2405804"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api/variables/VERSION.md",
+      "bytes": 193,
+      "sha256": "f37b93ea8813f44d4e3e772ea9e35783497c51d62b6632af0448230217be1527"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/api.md",
+      "bytes": 2595,
+      "sha256": "e51b93389b40324b6225d583c7f8a7b417a1025a908c54b56fb8372a1f673d92"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript/changelog.md",
+      "bytes": 409,
+      "sha256": "2e60224492540acd94ffb2deebb355a25984258c3f68b3ebaff7f375f9c0fc25"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/javascript.md",
+      "bytes": 1216,
+      "sha256": "ee9f4cf3cc83a95e1489fe9235afcfdf218b06334cfcb1b82990558768fec976"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/python/api/clients/async/client.md",
+      "bytes": 8581,
+      "sha256": "88dfe1b2fd45bb587b9d88be7d01a9577f344ccbfb6bef222bcf3a1a196013b7"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/python/api/clients/async/models.md",
+      "bytes": 2929,
+      "sha256": "b5387b86cb71a9d459828f8c92208f95d23c9e379287ed207b922c7f23d16fe4"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/python/api/clients/sync/client.md",
+      "bytes": 8112,
+      "sha256": "b34b4aeec7f986db4a78e86eb02d1ed715db5ec6310a843d182c842ac0e0ac93"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/python/api/clients/sync/models.md",
+      "bytes": 2846,
+      "sha256": "c379ac79cc7e7259743228af10640c2dde2991863d20751a0aab69aadac32412"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/python/api/constants.md",
+      "bytes": 1286,
+      "sha256": "3b97522c7e1358c6f49c4775ef4ae97c5fe2c44d52248c2846ad924ce5a68156"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/python/api/exceptions.md",
+      "bytes": 4383,
+      "sha256": "b1f1af6eb5f4894824ceaa3210a4b0abe8d9f854cb8e96df23d157d33ce786d4"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/python/api/retries.md",
+      "bytes": 5421,
+      "sha256": "e7ce79333d744a21691402405c566993c6b09fdd97373e4b4427b99306326e57"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/python/api/types/common.md",
+      "bytes": 1832,
+      "sha256": "19005807e31aa386f1a856bf2607cbef83119aa0793f465764a64e5d3a5ecc7f"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/python/api/types/questions.md",
+      "bytes": 8889,
+      "sha256": "7e7bababef9f4d09acc7a833fa77fd9736cd2d0b13ab2c7a4bed173681ce66af"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/python/api/types/responses.md",
+      "bytes": 7570,
+      "sha256": "48d79021b8396174e4753e78758c6e55270bf3e8cdb1cd78258cd05084fc73bc"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/python/api.md",
+      "bytes": 552,
+      "sha256": "58db516310970f3fcf006e116eb742c6d8b3878cd57c4c633841aa5a50236533"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/python/changelog.md",
+      "bytes": 785,
+      "sha256": "87b6f63a5afd3ae5757d8b41dee272ec2368595bb7561a003a043812f37f4cf7"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/python/usage.md",
+      "bytes": 5934,
+      "sha256": "ac578f177cba52d75179a870ff18c6ec5f610e757661c2dfcc73992264495823"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk/python.md",
+      "bytes": 3072,
+      "sha256": "5a1538b017b47141eb9b36b1cceb4874b1d8ace6930a4ba3224c3836bfdd653d"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/pages/sdk.md",
+      "bytes": 732,
+      "sha256": "387682206a16c3ef099c62672c5e02d4e5ad723073723a4bc4fb507b20216e13"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/agent-skill.md",
+      "bytes": 5798,
+      "sha256": "5ed8f74a133760523a67674f0feaac6ac88d9f1d242574ce3c9c4965f6e037c4"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/api.md",
+      "bytes": 10322,
+      "sha256": "b9b205096ac164e26f7797a52551c72f2bb3d270dffd923dc7180af3b1a21ae8"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/concepts/how-to-build-with-system-one.md",
+      "bytes": 38344,
+      "sha256": "4f4dca16ba79da8a8f371814f53afa17666be7922f3c9b704eaddc16c7722663"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/concepts/state.md",
+      "bytes": 3678,
+      "sha256": "c5d182949dbb38285ea87cbbfd7c0587c3a199a20423775d6ba9ddf4037d26ae"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/concepts/system-one.md",
+      "bytes": 4061,
+      "sha256": "e072211498bc1b6ed22d14aae2c2716903f4a8112e908cc45c35af65d3b84895"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/concepts/use-case-map.md",
+      "bytes": 11707,
+      "sha256": "9d193b6379d17a3ac2f236eda9f15136e32b360e78a66bef03ce59605edfac2d"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/confidence.md",
+      "bytes": 4892,
+      "sha256": "c553ccda01913b9962e33b9f3948afeb7496482ab8bfe5352ff0e451f97514ef"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/cookbooks/autoformat.md",
+      "bytes": 41005,
+      "sha256": "e0be526400d0afc5d865c8db5ab46b89bc9d8e1a9f7f3df22f7e0d0a15919297"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/cookbooks/autoresearch_feature_discovery.md",
+      "bytes": 71547,
+      "sha256": "0aab7e2e6f30687ad774a6a2f44230a4f5f1be14482c88055452753305178418"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/cookbooks/citation_check.md",
+      "bytes": 15681,
+      "sha256": "18f3f5c64f60807392b2d5e3f9a7b6d454e7a379c212025dcb1356b54aaa0635"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/cookbooks/classification_using_confidence.md",
+      "bytes": 30731,
+      "sha256": "e422a24c229133d2c32b966d6dc063baa727b80b99e7b7d08ca311b3fa0bf169"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/cookbooks/classifying_rag_passages.md",
+      "bytes": 32448,
+      "sha256": "d309b903471529d86de2d05aeebb43e2656c4935e122cf41bb95c3a559bef498"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/cookbooks/consistency_choice_cookbook.md",
+      "bytes": 49954,
+      "sha256": "381b3840c94e9e232cefef2dbe941254a90b6a1cf56c8b8c7e333b9f12e9b583"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/cookbooks/consistency_noul_cookbook.md",
+      "bytes": 32442,
+      "sha256": "fb141c4937d9c65a6a35aa5650b5137b4f7ef4a562ee814591da41730a751047"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/cookbooks/date_extraction_cookbook.md",
+      "bytes": 19899,
+      "sha256": "3fdf1a1cef1970feb4d2c1629c73f2ca00a487f47c7eff0b1dc303868d6ee630"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/cookbooks/entity_alignment.md",
+      "bytes": 16841,
+      "sha256": "17f4d8fe49bb18fe179d6b0368198f1e35a58605b39e883cbf1c282b27835f7d"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/cookbooks/function_calling.md",
+      "bytes": 18910,
+      "sha256": "5447823489575a93adc3943627461fa8b904e5692bfed3395caa21a50458fe40"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/cookbooks/hierarchical_classification.md",
+      "bytes": 36445,
+      "sha256": "5525161d2b5597a29bd315a58aa817fe00e6bc2470cb31ece0530dbb8221dbfe"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/cookbooks/llm_guardrails.md",
+      "bytes": 22693,
+      "sha256": "ebc742bbbbe8af86ea609dd2c4dc52980c337f97044b1ebb7ea8d01dc1403c34"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/cookbooks/parallel_questions.md",
+      "bytes": 48529,
+      "sha256": "e142ddb58aeb69796358851910e856dc089335db10f6bcecc801e95ff5e28808"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/cookbooks/pre_parsed_value_extraction_cookbook.md",
+      "bytes": 12589,
+      "sha256": "5a2026433afc618ab1ed16994d8c07281399e527482006a92e7e343ddcd96a2d"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/cookbooks/rerank_typesafe.md",
+      "bytes": 26128,
+      "sha256": "4e2362b0bdecb1bec0b53a898045568ee0bd5132af7d4b8d00c7b0982d3c16ee"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/cookbooks/sde_cascade.md",
+      "bytes": 32396,
+      "sha256": "7789188c1e366d5f1ba50da24ccdc7a29dc1692787c470c94b75699511029409"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/cookbooks/semantic_find.md",
+      "bytes": 37898,
+      "sha256": "1fad271a5cf1be3671a153c1ea5e9777974a71e1187f6466d56617ac30a99cd8"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/cookbooks/skill_suggestion.md",
+      "bytes": 40060,
+      "sha256": "39f4d5c715c484571f930fdc9bc6920a6c14569cd1395726e12d44452b9fb52a"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/demos/smart-home.md",
+      "bytes": 3825,
+      "sha256": "155c0af9a4ae31d2e283ee77147bc3a0bbaba45e15568a2382c29cc75f0adde4"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/demos.md",
+      "bytes": 588,
+      "sha256": "df111cec8c2653209cb7c44f20bc7359619a3807bb16b60870ab2190fb47359b"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/introduction/machine-learning-primer.md",
+      "bytes": 6580,
+      "sha256": "45e6a22bc175f2ce1c404271dd26559179a6f6a83bde2dfcdbd963dbc1649551"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/introduction/quickstart.md",
+      "bytes": 7050,
+      "sha256": "84110251b994b059443c439d5f80406e966a2e5a3aa8e4c5885415390999cf7d"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/introduction.md",
+      "bytes": 3594,
+      "sha256": "85c0e910b668b27d5eb61c1e923ae34e03f31fe0b02d69278430b17f6bc3fcb8"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/legal.md",
+      "bytes": 1059,
+      "sha256": "4141ec2e7efad5a2965e56273216300ee3ece1e8d85024f0d0692efa08afcf5c"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/model-jaggedness/jev-1.13.md",
+      "bytes": 9878,
+      "sha256": "34c927abf309abb3f91dbffcf963ff1c8f6bd8735874fdf4b65f587346c30abb"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/models.md",
+      "bytes": 4683,
+      "sha256": "92e3bdb1c49b3a1fc26a5b606b7cda72c50b42a6cc538b27f3a48be1404043a7"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/patterns/composite-scoring.md",
+      "bytes": 12416,
+      "sha256": "b8cc7828beb5e7f585f2bdd00717bdef2394347a30ea12920ceb0c2080b9cef5"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/patterns/confidence-routing.md",
+      "bytes": 11299,
+      "sha256": "5f1f8e0af76cb291d1583d8791f543a911f4ebebe1077ccd85e0178f2211b566"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/patterns/fan-out.md",
+      "bytes": 12862,
+      "sha256": "f1f0789b2c2e7badbf645614892b38f43f3a956906c20430ce7d5b22242ec621"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/patterns/intent-routing.md",
+      "bytes": 12197,
+      "sha256": "90a753c541af934522384f28e553bc9d8c1ad36fbacaf0cef68d0d44b7bcb5a1"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/patterns.md",
+      "bytes": 2020,
+      "sha256": "3c810e35f9587e0432c0fae4448961e54233ecbe51a4ba091721d55a0e5bc107"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/primitives/advanced.md",
+      "bytes": 19060,
+      "sha256": "73eeedee0c3ff68e5964c914ba006e4f59522fa8222e43bd960418febd13ea7f"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/primitives/choice.md",
+      "bytes": 26662,
+      "sha256": "5ba42269e9a07ac5b1220ee6b6c69f060f57b6a7ff619cfedcb916acfb6c92c5"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/primitives/noul.md",
+      "bytes": 13083,
+      "sha256": "402a2f30ca71b53227058a5df3fb3e0a10063588a31b883f924d6660815c6916"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/primitives/score.md",
+      "bytes": 31889,
+      "sha256": "653ca2a688bf6613bf4c1621046a22c66e672a90cf40992c1fe218a8e96768c4"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/primitives.md",
+      "bytes": 24727,
+      "sha256": "6cbe8960e23863cf2a1c8c6892d2fa4a0c0b42c9a4f034b6cec0727f2ec8c728"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/classes/APIConnectionError.md",
+      "bytes": 888,
+      "sha256": "a20405bd5c86d947fd7cfea9d04afc79c03a7634382911ba82038b88c43c7ecd"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/classes/APIError.md",
+      "bytes": 2190,
+      "sha256": "99fdf20f20bd67faf0b1fecb915079b2e87dbf9e12fb19c22e4dc0ff8a887b7a"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/classes/APIPromise.md",
+      "bytes": 3573,
+      "sha256": "0d00c57977f2777183bc2dcf7019f4293a89dd2e76fe3706b3b3db80a069ceb3"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/classes/APITimeoutError.md",
+      "bytes": 943,
+      "sha256": "c0bdf6e807b322d559704b16e4fd1d0379c3decc63c98471dbd8374cc5f5468c"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/classes/APIUserAbortError.md",
+      "bytes": 780,
+      "sha256": "f7db36a7ca8eab94e01e8a452ef23f183245770f0915ea64dd7ea17484fe5d88"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/classes/AuthenticationError.md",
+      "bytes": 2398,
+      "sha256": "8420db7d6a927cc0ed598d80b509a04d7e2fcdc78ebb8fe23e4c3113de81fc7d"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/classes/BadRequestError.md",
+      "bytes": 2383,
+      "sha256": "ac95c8e0d1ca8ad1a9e61947374439047fd6fc5595369b8c8b9aa02a9323f979"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/classes/InternalServerError.md",
+      "bytes": 2416,
+      "sha256": "e878d63c8d1970545d9376dd9ce0ab92110af0009dc3a802d235c153d381b986"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/classes/NotFoundError.md",
+      "bytes": 2379,
+      "sha256": "29ee86c3e039c786e07484580663a963a4a5c87418079ee1743899f647174a00"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/classes/PermissionDeniedError.md",
+      "bytes": 2401,
+      "sha256": "1d5c7a29683e93133df42ce6b937d19e8344c5b45a9133a966039a164b5bc3cf"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/classes/RateLimitError.md",
+      "bytes": 2579,
+      "sha256": "4e552a0610a26794cb68ac08e17ab6402534004e825b73e177408ecd854efdf0"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/classes/TypeSafeClient.md",
+      "bytes": 3375,
+      "sha256": "3831ede08860c95daa182c33a5c3dc698f92d30990df88f7d6af764d989d2347"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/classes/TypeSafeError.md",
+      "bytes": 769,
+      "sha256": "a1eb2d99ba005a680324f062842dfeef9a6bf7267508521eee2b87c3cfe12556"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/classes/UnprocessableEntityError.md",
+      "bytes": 2422,
+      "sha256": "4620ac84c0bef57460dacf4b85b42ac3b3597a9b059bd13ff5cf644db27af366"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/functions/choice.md",
+      "bytes": 777,
+      "sha256": "971e2ac7f5ef762fac9afb4aa481350296938872cb886cf198162018b36f30a8"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/functions/noul.md",
+      "bytes": 1252,
+      "sha256": "496c8ffa64162d5fdf4aca671f7f363672ffb25de8f666b28753810b7820e1bd"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/functions/score.md",
+      "bytes": 772,
+      "sha256": "2f7bd6acff7da9a8fa6e88a8f9cc0b9b7040df039f6d5072a3187729ff155783"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/interfaces/ChoiceQuestion.md",
+      "bytes": 834,
+      "sha256": "3eeef7d78386649011c5d4f1c792976a546f77e4904ff824d488b2634af567da"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/interfaces/ChoiceResponse.md",
+      "bytes": 982,
+      "sha256": "4325f9f44b85549c68ea4fff2e79d8c24dbd6a44103589a8752ab40003885d06"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/interfaces/Logger.md",
+      "bytes": 1035,
+      "sha256": "9ebf6cdbafffbece6faf32e249747c48eec372785fc14ccf74a1c7ab6ebe32b7"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/interfaces/ModelCard.md",
+      "bytes": 541,
+      "sha256": "4427f8c944169d2bb3ed64ea08894b6a138d9b5bb7fa0e20db56e142320461bb"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/interfaces/Models.md",
+      "bytes": 626,
+      "sha256": "335e3d5c1d3fb2c048d81dfc6c4aeaf93365bfa78f8ee281c74224729e9d63e1"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/interfaces/NoulQuestion.md",
+      "bytes": 1055,
+      "sha256": "0968d15de4642b9f18f6a2902081067f2404127c5f2ccacb14ef14d99d46ea96"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/interfaces/NoulResponse.md",
+      "bytes": 447,
+      "sha256": "6227fefaed88bd826c07d8183f752990c9af6b5b52468dda49335fc6a99eb1bf"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/interfaces/Questions.md",
+      "bytes": 327,
+      "sha256": "35a610a7c3f857d320fdc7db8f53415434b60948ff3013d8d69a331611c4c48a"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/interfaces/RequestOptions.md",
+      "bytes": 919,
+      "sha256": "81fae66c86b0b25f88536144d656f3f8ecf20588658a24b488514d22091d67ee"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/interfaces/RetryPolicy.md",
+      "bytes": 2033,
+      "sha256": "ecaf1ae900811fdb14829e188bb398347d1d8b549d01d24953eab1eabef5eddb"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/interfaces/ScoreQuestion.md",
+      "bytes": 833,
+      "sha256": "cf3a67c335854ba7aea0564f1fc6dcfaa91ea70831bf7c42444c1986eda934db"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/interfaces/ScoreResponse.md",
+      "bytes": 1139,
+      "sha256": "f9f1d1f6da5db8d8a32512e07839973d05a19e5742fa0d943754ec9e1897d3ff"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/interfaces/SystemOneRequest.md",
+      "bytes": 1043,
+      "sha256": "a9cc654ab780c1b63390cec607ba42fc91625545e70410ae348bfecd2ed447e5"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/interfaces/SystemOneRequestPayload.md",
+      "bytes": 1292,
+      "sha256": "97088e861eac6197f5c9d0f242191070d65e0d45a0c6e05d70e5df6b982fb74e"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/interfaces/SystemOneResult.md",
+      "bytes": 828,
+      "sha256": "7cb2e4e7a724cd7841310f2e119e55a8ca9b55b9c94191ad36c76713cee08ced"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/interfaces/TypeSafeClientConfig.md",
+      "bytes": 2201,
+      "sha256": "5780a70b4f0bc12433b1cebc8810e22ad6c5298fcec7fb77163770af483a1f69"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/interfaces/Usage.md",
+      "bytes": 516,
+      "sha256": "89166ea2f5f82c1265440869fb7ed753ff5980122ecf6ff847588fb64ec3cb0a"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/interfaces/WithResponse.md",
+      "bytes": 712,
+      "sha256": "ad47903342ef004b6b29e2f8112e0217ba26439bcb40cfbbc09bb6f65f3bb782"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/type-aliases/ChoiceCriteria.md",
+      "bytes": 399,
+      "sha256": "095bfad4b4840048f5fe7e8e9b65059a7f98c2472f331bd2bc8f2d8f27653d50"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/type-aliases/Description.md",
+      "bytes": 322,
+      "sha256": "4891a677386abdb276a91f0be7a9d96c5168798f13daf56eeb4cd256c88dc318"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/type-aliases/EntryType.md",
+      "bytes": 396,
+      "sha256": "25eddb598adc30e458b2a88df4b28d6ac7833c523e07b9e51fe485a99aa20f0b"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/type-aliases/EnvVar.md",
+      "bytes": 268,
+      "sha256": "d10173bb6e14432a2b4c8563c534768aafe3bed9f987433ff0f4804b0aff3916"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/type-aliases/Fetch.md",
+      "bytes": 434,
+      "sha256": "17e01b94c2f9794a9a4c6b732b0172a9ab9bc7188b9ed306528ddc742c2c8f5d"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/type-aliases/JsonValue.md",
+      "bytes": 365,
+      "sha256": "10f9f35278cc9c8059f45e13c9e16581ecdc848db015eaae46e4593975c6e030"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/type-aliases/LogLevel.md",
+      "bytes": 327,
+      "sha256": "dba7f4b1a63b6f7f2da62013ffefc152660867c508d2cb580de8c6983b5efe11"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/type-aliases/Question.md",
+      "bytes": 342,
+      "sha256": "f58601370daa9df78ea740d7bdd970c79e73d929b0c6c20cf6de0ae2f9ca5f20"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/type-aliases/ResultFor.md",
+      "bytes": 568,
+      "sha256": "e5575bb40e49aadc08996e758ba55c1d4399a4c99a0332eee82a6a2a03121573"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/type-aliases/ScoreCriteria.md",
+      "bytes": 391,
+      "sha256": "6f01554f2569f2c9d71acbf548dfa7d6e2c439886d13921cdee5584e09eff21e"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/type-aliases/ScoreLegend.md",
+      "bytes": 445,
+      "sha256": "4ee7b3f292648e093a9eb3946e3a6924ff44e8fba8161faab040c02adfaadaf5"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/type-aliases/ScoreOf.md",
+      "bytes": 522,
+      "sha256": "257c8140349b19766082e0bb91550090660265ea932d9ee2887156af8ef61434"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/variables/ENV.md",
+      "bytes": 1039,
+      "sha256": "52a78017fdd446b976eb37589e3ece060228055cbd78f9a5f0568ed69146781f"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/variables/LOG_LEVELS.md",
+      "bytes": 316,
+      "sha256": "0d5646a6c2fd3ef63b0037f2d43a159ff588841298ff15808adc51d10e5a8fa7"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api/variables/VERSION.md",
+      "bytes": 257,
+      "sha256": "de1e098300ddc35807ac8152b31ca2674a9f9f52a17e3595670a2758cd5c2e1b"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/api.md",
+      "bytes": 3327,
+      "sha256": "e8abd954c9eb20d338d07cb3397bd933f3fe5633237b9ff7bd73c6dd290e51c8"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript/changelog.md",
+      "bytes": 508,
+      "sha256": "73389d4c01993603a0c943aa04d491ef92670a358e413e74a5aac4891661250d"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/javascript.md",
+      "bytes": 1302,
+      "sha256": "25ba04f5b55819bee85e21d9184b7b8c807a81e95754baef4b05157240a2e1bb"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/python/api/clients/async/client.md",
+      "bytes": 18241,
+      "sha256": "ce2a6e698ddf71e798e4273942380ac952d059a8517bd369e5c8ac3444510204"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/python/api/clients/async/models.md",
+      "bytes": 5671,
+      "sha256": "3dd43a42b561a67bc8ffbf3934ba997b4d7660dac439fa89f9493b7c1d514de3"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/python/api/clients/sync/client.md",
+      "bytes": 17730,
+      "sha256": "42d673f1b877169fb763dd0984c4e432106c5140fff76f81160a06d892540631"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/python/api/clients/sync/models.md",
+      "bytes": 5578,
+      "sha256": "802668cdfc0c3fc94ed18f7db06f85ae078de53ceda6425807703d0aa8547e9f"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/python/api/constants.md",
+      "bytes": 1782,
+      "sha256": "dfcd6bfd691412058b2ea06c9a44414f5126e4aea06d7bf7071600f42a9b5003"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/python/api/exceptions.md",
+      "bytes": 7059,
+      "sha256": "c1cec8b4f1e4c8d258f18a40acf8736e34be3c6b0bd0915189d2542624447fad"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/python/api/retries.md",
+      "bytes": 15732,
+      "sha256": "bdf94b25ae1d23a0784c9e1affcf0363e80deb56089a0e48d3e3860bb5181cc9"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/python/api/types/common.md",
+      "bytes": 4878,
+      "sha256": "bd7331a324bfd4578abe7f202edc13b0fba4fce24ec5492ce3c18429fb7f13ff"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/python/api/types/questions.md",
+      "bytes": 19006,
+      "sha256": "d2661ced7793f25ed9e4e3e52a8a59de65d006514337338ae40955f8f4d8bb0e"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/python/api/types/responses.md",
+      "bytes": 17624,
+      "sha256": "68dbf169fdcc20e669479c050d7b6696db7aba76a82e19de1387c2f8d27f47b8"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/python/api.md",
+      "bytes": 752,
+      "sha256": "4a5fb3fa0423d18e1a08d6b5fdc473bd6cc352fcc9b8ac4519880b6b849b496f"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/python/changelog.md",
+      "bytes": 1074,
+      "sha256": "cbb370bc86395d157fbc15e47ae3c1469e66eb1135c03ccc6dd191a80622701b"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/python/usage.md",
+      "bytes": 6427,
+      "sha256": "87268e825a2b8bdac886778f3217d85d0c6cc5330241fd730f15cfaff006980c"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk/python.md",
+      "bytes": 3243,
+      "sha256": "81cada0bf991f40520c62aab20ab09e0bb728d4ada77a9e301c658d320192bc2"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/raw/sdk.md",
+      "bytes": 823,
+      "sha256": "bbd9d2eaad4c605150fcead2dcb1fdb8415a10f6e5481186e185e7e8d4826a97"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/sitemap.xml",
+      "bytes": 15664,
+      "sha256": "88b0b03933b67e8ddc69c0e13d600cc92b6ee0e7eea1b85c5b2e2f62006939d5"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/upstream/LICENSE",
+      "bytes": 1068,
+      "sha256": "835f233f1d6ed84a9b9a351aba0689b47644a4137d6316911fc7957bde523b02"
+    },
+    {
+      "path": "skill/typesafe-ai/references/docs/upstream/SKILL.md",
+      "bytes": 10040,
+      "sha256": "71ea90d7906c6554c4f4c460ef7361b2d26f59116ccdae986dc6d997b9389f52"
+    },
+    {
+      "path": "skill/typesafe-ai/references/super-browser.md",
+      "bytes": 4266,
+      "sha256": "f90450479350446569b1ce2a1fe743e2cd42bf62797171ecd456ae2ca6ae6b64"
+    },
+    {
+      "path": "skill/typesafe-ai/scripts/evaluate.py",
+      "bytes": 2618,
+      "sha256": "7a31229e98f02dccbdc24b997109dd244217cb1e07e9f80cdb9c3b8f206191ee"
+    },
+    {
+      "path": "source/implementation-status.md",
+      "bytes": 5463,
+      "sha256": "a0d93d24b81ebd07cb378ca0640b0be7ada1cb29117bed072290d91b2d1371b1"
+    },
+    {
+      "path": "source/jev-comparison-pilot.md",
+      "bytes": 5238,
+      "sha256": "bcbaf5badf0ffc2eb9aff330d04fb80ec6f9f583e41212ed874cab699cc7c966"
+    },
+    {
+      "path": "source/jev-pilot-acceptance.md",
+      "bytes": 2991,
+      "sha256": "56793d2b802150ae3da7a844f0ef0a5510908faa67888a4bbe941714bb7a13a4"
+    },
+    {
+      "path": "source/outreach-prototype-README.md",
+      "bytes": 3879,
+      "sha256": "fd292a3291852079dcf1a87481b753afa048e3eb74c7a8a32b1bb477d529a995"
+    },
+    {
+      "path": "source/outreach-prototype-next-steps.md",
+      "bytes": 3886,
+      "sha256": "61606bc9d13db5503f3cfba02107d414e928576cd2154ea313412b8dbffd4037"
+    },
+    {
+      "path": "source/outreach-prototype-test-spec.md",
+      "bytes": 6314,
+      "sha256": "0cb7f946ca0fe5ed2e212defc8f4401756f9b1d32673ad29af34817aa6fddb68"
+    },
+    {
+      "path": "source/researched-outreach-plan.md",
+      "bytes": 23758,
+      "sha256": "3bd8688cde91aa3a800fc4ef32bf2a300e384d4b9e0174a0149664ea2f1bab6d"
+    },
+    {
+      "path": "source/typesafe-fleet-rollout.md",
+      "bytes": 14761,
+      "sha256": "8e0d61fa904e835d2f90d5565654100239f15025751feffbd22c9a5a9ae0a205"
+    },
+    {
+      "path": "source/typesafe-integration.md",
+      "bytes": 4266,
+      "sha256": "f90450479350446569b1ce2a1fe743e2cd42bf62797171ecd456ae2ca6ae6b64"
+    }
+  ]
+}
