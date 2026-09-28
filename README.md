@@ -1,5 +1,9 @@
 # Jev Agent Kit
 
+> **Note (2026-09-28).** `SUPER-BROWSER-LLM-BOOTSTRAP.txt` describes Super Browser, which has been retired
+> in favour of **browser-box** and **data-box**; self-host both with
+> [box-kit](https://github.com/jbellsolutions/box-kit). The Jev material here is unaffected.
+
 This repository is a self-contained handoff for building software with Jev, TypeSafe's System One model. It deliberately treats Jev as a general typed-decision layer, not as a browser-only model.
 
 Give this repository to Codex and say: **Read `AGENTS.md`, then use `docs/EMAIL-APPLICATION-BUILD-BRIEF.md` as the product specification. Read only the TypeSafe references needed for the feature you are implementing.**
